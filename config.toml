@@ -1,0 +1,35 @@
+baseURL = "https://blog.hess.dev/"
+languageCode = "en-us"
+title = "Christian Hess"
+theme = "hyde-hyde"
+highlightjs = true
+googleAnalytics = "UA-141225065-3"
+disqusShortname = "christian-hess-blog"
+
+[params]
+    baseUrlHttp = "https://blog.hess.dev/"
+    author = "Christian Hess"
+    title = "Christian Hess"
+    description = "Software Engineer"
+    authorimage = "/img/avatar.png"
+    dateformat = "Jan 2, 2006"
+
+    copyright = "Christian Hess"
+    since = 2020
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
+
+    highlightjs = true
+    highlightjsstyle = "zenburn"
+    authorPosts = "/posts"
+    mainSections = ["posts"]
+
+[params.social]
+	linkedin = "chessbr"
+	github = "chessbr"
+    email = "christian@hess.dev"
+
+[params.meta]
+  description = "Technology blog focused on financial market and stock exchange."
+  keywords = ["technology", "cryptocurrencies", "stock exchange", "software development", "software engineering", "fintech"]
