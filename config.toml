@@ -5,6 +5,7 @@ theme = "hyde-hyde"
 highlightjs = true
 googleAnalytics = "UA-141225065-3"
 disqusShortname = "christian-hess-blog"
+enableEmoji = true
 
 [params]
     baseUrlHttp = "https://blog.hess.dev/"
