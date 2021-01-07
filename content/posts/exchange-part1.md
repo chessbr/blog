@@ -3,8 +3,8 @@ title = "Building an Exchange in Rust - Part 1"
 categories = ["architecture"]
 tags = ["architecture", "software engineering", "exchange", "trade system", "rust"]
 summary = "How I designed and architected my exchange software."
-date = "2021-01-01"
-draft = true
+date = "2021-01-06"
+draft = false
 +++
 
 Welcome to my first post about designing and architecting software for an exchange. Today I will describe how I planned my solution for a trading system that can be used in exchanges with any kind of asset.
