@@ -42,11 +42,10 @@ jobs:
       - name: Commit files
         run: |
           cd static-site
-          git reset HEAD --hard
           git config --local user.email "support@hess.dev"
           git config --local user.name "GitHub Action - Deploy"
           git add .
-          git commit -m "Update blog" -a
+          git commit -m "Deploy blog" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
