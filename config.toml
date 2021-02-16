@@ -2,7 +2,6 @@ baseURL = "https://blog.hess.dev/"
 languageCode = "en-us"
 title = "Christian Hess"
 theme = "hyde-hyde"
-highlightjs = true
 googleAnalytics = "UA-141225065-3"
 disqusShortname = "christian-hess-blog"
 enableEmoji = true
@@ -22,7 +21,8 @@ enableEmoji = true
     showBuiltWith = true
 
     highlightjs = true
-    highlightjsstyle = "zenburn"
+    highlightjslanguages = ["rust"]
+    highlightjsstyle = "agate"
     authorPosts = "/posts"
     mainSections = ["posts"]
 
